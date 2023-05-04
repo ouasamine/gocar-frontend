@@ -17,31 +17,29 @@
 - [📝 License](#license)
 
 
-# I Model Cars
+# 📖 goCar <a name="project"></a>
 
-**I Model Cars** is a car booking service app where you can book a car for a test drive, you can pick a car from the catalogue, pick a date and city and your appointment will be set up. The app was built with Ruby on Rails and React.JS, the is split into a backend and frontend part, this repository is for the frontend part to check the backend please head to this [repository](https://github.com/GordonOtieno/i-model-cars-backend)
+**goCar** is a web app to book cars online, after registering as user on the app you can access the available cars and book one of them if you like. The app is built with Ruby on Rails and React.JS where both back and front ends are integrated using a REST API.
+
+> This repo contain the front-end code of the project, you can find the back-end repo on [here](https://github.com/ouasamine/gocar-backend)
 
 ## Built With
 
 ### Tech Stack 
 
 <ul>
-  <li><a href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/">Ruby 3.1</a></li>
-  <li><a href="https://rubyonrails.org/">Ruby on Rails 7</a></li>
-  <li><a href="https://www.postgresql.org/">PostgreSQL 15</a></li>
   <li><a href="https://reactjs.org/">React</a></li>
   <li><a href="https://redux.js.org/">Redux</a></li>
   <li><a href="https://reactrouter.com/en/main">React Router</a></li>
 </ul>
 
-## Live Demo 
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://wondrous-gumption-278ae4.netlify.app/)
-- [Link to Backend Repo.](https://github.com/GordonOtieno/i-model-cars-backend)
+- [Live app](www.google.com)
 
 ### Key Features
 
-- Add cars to the catalogue
+- Ability to add cars to the catalogue
 - Book a car from the catalogue
 - Access all your bookings
 
@@ -51,26 +49,23 @@
 
 ### Prerequisites
 
-  - <a href="https://www.ruby-lang.org/en/news/2022/11/24/ruby-3-1-3-released/">Ruby</a>
-  - <a href="https://rubyonrails.org/">Ruby on Rails</a>
-  - <a href="https://www.npmjs.com/">npm</a>
-  - any code editor
+  - <a href="https://nodejs.org/">Node.JS</a>
 
 ### Setup
 
 To setup the project follow the steps:
 
-1. Clone this project using Git Bash: 
+1. First make sure to follow the instructions on the backend repository to setup backend server
+
+2. Clone this project using Git Bash: 
     ``` 
-    git clone https://github.com/GordonOtieno/i-model-cars-frontend
+    git clone https://github.com/ouasamine/gocar-frontend
     ```
   
-2. Inside the project directory, install the project's dependencies
+3. Inside the project directory, install the project's dependencies
     ```
     npm install
     ``` 
-
-3. Make sure to follow the instructions on the backend repository to run backend serve before starting the frontend server
 
 
 ### Available Scripts
@@ -78,16 +73,16 @@ To setup the project follow the steps:
 In the project directory, you can run:
 
 - ```
-  npm start
+  npm run start
   ```
   Runs the app server
 
 - ```
-  npm test
+  npm run test
   ```
   Launches the test runner.
 
-## Authors
+## 👥 Authors <a name="author"></a>
 
 👤 **Amine**
 
@@ -112,21 +107,21 @@ In the project directory, you can run:
 - Build a dashboard for admins
 - Implement full user authentication
 
-## Contributing 
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support <a name="support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project give it a star!
 
-## Acknowledgments 
+## 🙏 Acknowledgments & Attribution <a name="acknowledgements"></a>
 
 - Microverse 
 - Credit goes to Murat Korkmaz whose [design](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) was user in this project.
 
-## License 
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
