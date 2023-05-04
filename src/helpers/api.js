@@ -1,4 +1,4 @@
-export const baseURL = 'https://i-model-cars.onrender.com/api/v1';
+export const baseURL = 'https://gocar-backend-production.up.railway.app/api/v1';
 
 export const createReservationAPI = (userID, reservation) => fetch(`${baseURL}/users/${userID}/reservations`, {
   method: 'POST',
