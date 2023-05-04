@@ -11,7 +11,6 @@ import isUserSigned from '../../helpers/auth';
 const Main = () => {
   const dispatch = useDispatch();
   const { cars = null, status = 'idle' } = useSelector((state) => state.cars);
-  // Fetch data from the localhost api
   const navigate = useNavigate();
   const [carouselIndex, setcarouselIndex] = useState(0);
   useEffect(() => {
@@ -33,8 +32,7 @@ const Main = () => {
   return (
     <section>
       <header>
-        <h1 className="app-title">Latest i-Model Cars</h1>
-        <p className="app-msg">Please select an i-model</p>
+        <h1 className="app-title">Available Cars</h1>
       </header>
 
       <Carousel className="cars-container" interval={null}>

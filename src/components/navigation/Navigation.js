@@ -4,7 +4,6 @@ import {
   FaTwitter, FaFacebook, FaInstagram, FaGoogle,
 } from 'react-icons/fa';
 import { RiPinterestFill } from 'react-icons/ri';
-import carLogo from './car_logo.webp';
 import './navigation.css';
 import isUserSigned from '../../helpers/auth';
 
@@ -17,9 +16,6 @@ const Navigation = () => {
 
   return (
     <div className="sidebar">
-      <div className="sidebar-header">
-        <img src={carLogo} alt="i-model car logo" style={{ height: '50px', width: '100px' }} />
-      </div>
       <div className="sidebar-content">
         <Link to="/"><li>CARS</li></Link>
         <Link to="/reservations/new"><li>RESERVE</li></Link>
