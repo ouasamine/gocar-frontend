@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
@@ -12,17 +12,9 @@ const Main = () => {
   const dispatch = useDispatch();
   const { cars = null, status = 'idle' } = useSelector((state) => state.cars);
   const navigate = useNavigate();
-  const [carouselIndex, setcarouselIndex] = useState(0);
   useEffect(() => {
     if (!isUserSigned()) {
       navigate('/signin');
-    }
-    if (window.innerWidth <= 768) {
-      setcarouselIndex(1);
-    } else if (window.innerWidth > 768 && window.innerWidth <= 1024) {
-      setcarouselIndex(2);
-    } else {
-      setcarouselIndex(3);
     }
     if (status === 'idle') {
       dispatch(getCarsThunk());
@@ -37,7 +29,7 @@ const Main = () => {
 
       <Carousel className="cars-container" interval={null}>
         {cars && cars.reduce((acc, car, index) => {
-          if (index % carouselIndex === 0) {
+          if (index % 1 === 0) {
             acc.push([]);
           }
           if (acc[acc.length - 1]) {
