@@ -35,7 +35,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live app](https://gocar-frontend.vercel.app)
+- [Live app](https://i-budget-production.up.railway.app/)
 
 ### Key Features
 
