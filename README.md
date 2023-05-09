@@ -35,7 +35,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live app](www.google.com)
+- [Live app](https://gocar-frontend.vercel.app)
 
 ### Key Features
 
